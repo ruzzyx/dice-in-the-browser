@@ -30,7 +30,7 @@ window.addEventListener('mousemove', (event) => {
     console.log(`Screen X/Y: ${event.screenX}, ${event.screenY}`);
 });
 
-window.addEventListener('click', () => {
+container.addEventListener('click', () => {
 
   const newElement = document.createElement('div');
   const newSentence = generateDynamicSentence();
