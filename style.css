@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+
+    background-image: url('imgs/nnnoise.svg');
+    background-color: black;
+    background-repeat: repeat;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+
+/*
+background-color: #ffffff;
+background-image: radial-gradient(#c3dbfc 1.5px, transparent 1.5px);
+background-size: 40px 40px;
+
+linear-gradient(20deg, rgba(255, 232, 22, 0.5), transparent),
+*/
+
+h1 {
+    background-image:
+        linear-gradient(20deg, rgba(84, 11, 66, 0.5), transparent),
+        url('imgs/nnnoise.svg');
+    font-family: "Ballet", cursive;
+    font-size: 6cqw;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0;
+    line-height: 120%;
+    text-align: center;
+    min-width: 400px;
+    padding: 10px;
+}
+
+p {
+    background-image:
+        linear-gradient(20deg, rgba(67, 10, 71, 0.5), transparent),
+        url('imgs/nnnoise.svg');
+    font-family: "Lekton", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16pt;
+    text-align: center;
+
+}
+
+div {
+    height: 100%;
+
+}
+
+.box {
+    background-image:
+        linear-gradient(20deg, rgba(255, 232, 22, 0.2), transparent),
+        url('imgs/nnnoise.svg');
+    margin: 10px;
+    flex-basis: auto;
+    flex-grow: 1;
+    align-self: auto;
+    padding: 0px 40px 0px 40px;
+    display: grid;
+    place-items: center;
+    font-family: "Lekton", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12pt;
+    letter-spacing: 10%;
+}
+
+.intro {
+    display: flex;
+    /* or inline-flex */
+    margin: 10px;
+}
+
+
+.random-image {
+    position: absolute;
+    object-fit: cover;
+    mix-blend-mode: difference;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.random-arrow {
+    position: absolute;
+    object-fit: cover;
+
+}
