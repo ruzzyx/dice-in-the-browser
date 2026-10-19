@@ -40,9 +40,6 @@ container.addEventListener('click', () => {
   const selectedSound = soundFiles[randomSound];  
   const audio = new Audio(selectedSound);
 
-  const randomIndex = Math.floor(Math.random() * images.length);
-  const selectedImage = images[randomIndex];
-
   newElement.textContent = newSentence;
   newElement.style.backgroundColor = randomColor;
   newElement.classList.add('box'); // Optional: for CSS styling
