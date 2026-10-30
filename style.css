@@ -90,7 +90,7 @@ div {
 
 }
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 480px) {
   h1 {font-size: 40pt;}
   p {font-size: 14pt;}
 }
