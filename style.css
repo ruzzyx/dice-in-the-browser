@@ -92,4 +92,5 @@ div {
 
 @media (max-width: 480px) {
   h1 {font-size: 40pt;}
+  p {font-size: 14pt;}
 }
