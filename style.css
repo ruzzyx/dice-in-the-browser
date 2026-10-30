@@ -89,3 +89,7 @@ div {
     object-fit: cover;
 
 }
+
+@media (max-width: 480px) {
+  h1 {font-size: 40pt;}
+}
